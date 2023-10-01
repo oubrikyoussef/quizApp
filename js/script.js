@@ -208,8 +208,8 @@ function setTime(minutes, seconds, questions) {
 }
 
 function formatNums(num) {
-  const formattedTime = num < 10 ? `0${num}` : num;
-  return formattedTime;
+  const formattedNum = num < 10 ? `0${num}` : num;
+  return formattedNum;
 }
 
 function verifyInput() {
