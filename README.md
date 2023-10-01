@@ -16,7 +16,7 @@ This is a web-based quiz game application that allows players to answer question
 
 ## Live Demo
 
-Check out the live demo: [gitInfos](https://yo-quizapp.netlify.app/)
+Check out the live demo: [quizApp](https://yo-quizapp.netlify.app/)
 
 ## Features
 
