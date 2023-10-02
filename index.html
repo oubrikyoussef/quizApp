@@ -3,6 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Challenge your knowledge with the Quizz App Test your wits, answer questions, and compete for the highest score"
+    />
+    <meta name="keywords" content="quiz, questions, answers, game" />
+    <meta name="author" content="Your Name" />
+
+    <!-- OGP Tags -->
+    <meta property="og:title" content="Quizz App" />
+    <meta
+      property="og:description"
+      content="Challenge your knowledge with the Quizz App Test your wits, answer questions, and compete for the highest score"
+    />
+    <meta property="og:image" content="https://example.com/your-image.jpg" />
+    <meta property="og:url" content="https://example.com/your-page-url" />
+    <meta property="og:type" content="website" />
+
     <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -11,6 +28,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <!-- Icon From icons8.com  -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
     <title>Quizz App</title>
   </head>
   <body>
@@ -31,10 +50,10 @@
     </div>
     <form action="#" class="decision">
       <p>
-        You've answerd correctly <span class="correct"></span> questions out of
+        You've answered correctly <span class="correct"></span> questions out of
         <span class="total"></span>
       </p>
-      <p>Do You Want To Reply ?</p>
+      <p>Do You Want To Replay ?</p>
       <div class="buttons">
         <input type="submit" value="Yes" class="yes" />
         <input type="reset" value="No" class="no" />
@@ -42,7 +61,7 @@
     </form>
   </body>
   <audio src="sounds/correct.wav" class="correct"></audio>
-  <audio src="sounds/succes.wav" class="success"></audio>
+  <audio src="sounds/success.wav" class="success"></audio>
   <audio src="sounds/wrong.mp3" class="wrong"></audio>
   <audio src="sounds/lose.mp3" class="lose"></audio>
 </html>

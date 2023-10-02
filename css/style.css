@@ -100,16 +100,6 @@ input[type="radio"] {
   border: 1px solid var(--blue-color);
   border-radius: 5px;
 }
-/*Head Style*/
-.head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.head span:not(.value) {
-  color: var(--blue-alt-color);
-}
-/* Foot Style  */
 .submit-response {
   font-weight: bold;
   width: 100%;
@@ -126,7 +116,15 @@ input[type="radio"] {
 .submit-response:hover {
   background-color: var(--blue-alt-color);
 }
-
+/*Head Style*/
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head span:not(.value) {
+  color: var(--blue-alt-color);
+}
 /* Foot Style  */
 .foot {
   display: flex;
@@ -147,7 +145,7 @@ li.reached {
   background-color: var(--blue-color);
 }
 
-/* Result  */
+/* Decision Style  */
 .decision {
   background-color: #f8f8f8;
   padding: 0.8rem;
@@ -161,7 +159,7 @@ li.reached {
   justify-content: center;
 }
 .buttons input {
-  flex-basis: min(100%, 100px);
+  flex-basis: 100px;
   font-weight: bold;
   border: none;
   outline: none;
